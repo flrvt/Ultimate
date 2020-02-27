@@ -30,7 +30,7 @@ void Message::SendChat(const int32_t playerNum, const char* name, const char* me
 
 void Message::SendChatAnnouncement(const int32_t playerNum, const char* message)
 {
-	SendChat(playerNum, "^2MW2LT^7", message);
+	SendChat(playerNum, "^2Host^7", message);
 }
 
 void Message::SendHostAnnouncement(const int32_t playerNum, const char* message)

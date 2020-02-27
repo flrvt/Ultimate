@@ -38,8 +38,8 @@ void RunFrameDetour::hookRunFrame(const int32_t levelTime)
     ++startFrame;
 
     if (startFrame > endFrame) {
-        Message::SendChatAnnouncement(-1, "This lobby is hosted with ^2MW2 Lobby Tools^7 by ^2Scoudem^7");
-        Message::SendChatAnnouncement(-1, "Download ^2@^7 scoudem.github.io");
+        //Message::SendChatAnnouncement(-1, "This lobby is hosted with ^2MW2 Lobby Tools^7 by ^2Scoudem^7");
+        //Message::SendChatAnnouncement(-1, "Download ^2@^7 scoudem.github.io");
         startFrame = 0;
     }
 

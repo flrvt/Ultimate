@@ -16,7 +16,7 @@ void ActivePlayer::addDeath()
 {
     if (m_killstreak > 10) {
         const auto message = String::Format("%s^7 killstreak ended on ^2%i^7!", getPartyClient()->name, m_killstreak);
-        Message::SendChatAnnouncement(-1, message);
+        //Message::SendChatAnnouncement(-1, message);
     }
 
     m_deaths += 1;
